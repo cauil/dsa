@@ -9,7 +9,7 @@ def fib2(n):
         f = g - f
         n = n - 1
 
-    return g
+    return f
 
 if __name__ == '__main__':
     for i in range(10):
